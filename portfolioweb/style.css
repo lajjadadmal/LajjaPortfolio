@@ -1,0 +1,161 @@
+body {
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    background-color: rgb(2, 2, 41);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    top: -10px;
+    width: 100%;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(62, 62, 97);
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li {
+    color: white;
+    list-style: none;
+    margin: 0 23px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  div.left {
+    font-size: 25px;
+  }
+  .first-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 160px;
+  }
+  .left-section {
+    /* background-color: bisque; */
+    font-size: 30px;
+  }
+  .first-section > div {
+    width: 50%;
+  }
+  .right-section img {
+    width: 100%;
+  }
+  .special {
+    color: rgb(173, 127, 216);
+  }
+  nav ul :hover {
+    color: pink;
+    font-size: 1.15rem;
+  }
+
+  #element {
+    color: rgb(173, 127, 216);
+  }
+  .second {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+  }
+  main hr {
+    border-top: solid rgb(180, 138, 219) 2px;
+    margin: 70px 8px;
+    position: ;
+    bottom: 30px;
+  }
+  .second h1 {
+    font-size: 35px;
+  }
+  .gray-text {
+    color: rgb(165, 161, 161);
+  }
+  .second .box {
+    background-color: white;
+    width: 110vh;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+  }
+  .vertical {
+    height: 70px;
+    width: 1px;
+    background-color: white;
+    margin: 0 120px;
+  }
+  .vertical-text {
+    position: relative;
+    top: 70px;
+    width: 150px;
+    font-size: 20px;
+  }
+  .vertical-next {
+    position: relative;
+    top: 80px;
+    color: gray;
+    font-size: 10px;
+    width: 100px;
+    text-align: justify;
+  }
+  .image-top {
+    width: 23px;
+    position: relative;
+    top: -30px;
+    left: -6px;
+  }
+  footer{
+    background-color: rgb(39, 19, 57);
+    height: 170px;
+  }
+  .footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+
+  }
+  .footer ul{
+    list-style: none;
+  }
+  .footer>div{
+    width: 100%;
+    text-align: center;
+  }
+.rights{
+  color: gray;
+  text-align: center; 
+  padding: 0 0;
+}
+
+
+.btn{
+  padding: 10px;
+  background-color: rgb(100, 100, 139);
+  color: white;
+  border: solid 2px white;
+  font: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  
+
+}
+.bttn{
+  padding: 10px;
+  background-color: rgb(100, 100, 139);
+  color: white;
+  border: solid 2px white;
+  font: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.left-section.resume{
+padding: 50px 0;
+
+}
